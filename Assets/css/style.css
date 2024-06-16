@@ -1,0 +1,95 @@
+:root {
+  --barColor: #313a46;
+  --backgroudColor: #fafbfe;
+  --blue: #007bffb9;
+  --blue2: #104274;
+  --blue-dark: #112d49;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --RedAura: #C9184A;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #FFF;
+  --gray: #6c757d!important;
+  --gray-dark: #343a40;
+  --primary: #009688;
+  --success:#17a2b8;
+  --secondary: #6c757d;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.app-sidebar__user-avatar {
+  width: 48px;
+  background: gray;
+  padding: 6px;
+}
+
+.settings {
+  width: 40px;
+  background: #313a46;
+  padding: 3px;
+  margin-top: 6px;
+}
+
+.full-height {
+  height: 60vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.code {
+  border-right: 2px solid;
+  font-size: 26px;
+  padding: 0 15px 0 15px;
+  text-align: center;
+}
+
+.message {
+  font-size: 26px;
+  text-align: center;
+}
+
+.headerRegister {
+  background: var(--blue-dark);
+  color: #fff;
+}
+
+.headerUpdate {
+  background: var(--RedAura);
+  color: #fff;
+}
+
+.notBlock {
+  display: none;
+}
+
+.decoration-card {
+  text-decoration: none;
+}
+
+div h4{
+  text-decoration: none;
+}
